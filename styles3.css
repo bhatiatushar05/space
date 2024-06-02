@@ -1,0 +1,36 @@
+.hero{
+    background-image: url("spac.gif");
+    background-size:cover;
+    color: rgba(223, 207, 175, 0.889);
+    text-align: center;
+    font-family: 'space';
+    padding: 80px 0px 350px;
+    font-weight: bolder;
+    text-shadow: 5px 2px 5px rgb(244, 190, 89);
+}
+body{
+    margin:0;
+    color: rgb(244, 243, 243);
+    text-align: center;
+}
+.button{
+    border-radius: 20px;
+    border: none;
+    width: 105px;
+    padding:3px;
+    height:37px;
+    font-weight: bolder;
+    font-size:19px;
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right: auto;
+    font-family:'orbitron';
+    color:rgb(31, 27, 27);
+}
+@font-face {
+    font-family: space;
+    src: url(Space\ Angel.ttf);
+}
+#line{
+    border-bottom: 3px solid white;
+}
